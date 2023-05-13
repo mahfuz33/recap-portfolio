@@ -7,7 +7,7 @@ body{
 h1{
     font-size: 50px;
 }
-span{
+.top-banner span{
     color: orange;
 }
 
@@ -49,11 +49,31 @@ span{
 .experience-text{
     margin: 0px 30px;
     padding: 15px;
+    width: 45%;
     background-color: #fff;
     border-radius: 7px;
     box-shadow: 3px;
+    box-shadow: 10px 10px 30px gray;
 }
 
 .experience-text h3{
     color: orange;
+}
+
+#text-red{
+    border-left: 5px solid tomato;
+}
+#text-blue{
+    border-left: 5px solid blue;
+}
+
+footer{
+    text-align: center;
+    margin: 45px
+}
+footer p{
+    color: rgb(70, 34, 34);
+}
+footer span{
+    color: crimson;
 }
